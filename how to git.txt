@@ -1,3 +1,0 @@
-git add --all
-git commit -m "added work from class"
-git push origin master
