@@ -31,3 +31,4 @@ c:\users\csc\documents\visual studio 2013\Projects\ASPMessageBoard\ASPMessageBoa
 C:\Users\csc\documents\visual studio 2013\Projects\ASPMessageBoard\ASPMessageBoard\obj\Debug\ASPMessageBoard.Migrations.InitialCreate.resources
 C:\Users\csc\documents\visual studio 2013\Projects\ASPMessageBoard\ASPMessageBoard\obj\Debug\ASPMessageBoard.csproj.GenerateResource.Cache
 C:\Users\csc\documents\visual studio 2013\Projects\ASPMessageBoard\ASPMessageBoard\obj\Debug\ASPMessageBoard.Migrations.AttemptToFix.resources
+C:\Users\csc\Documents\Visual Studio 2013\Projects\ASPMessageBoard\ASPMessageBoard\obj\Debug\ASPMessageBoard.Migrations.MessageBoard.resources

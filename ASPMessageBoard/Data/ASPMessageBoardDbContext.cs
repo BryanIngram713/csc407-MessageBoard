@@ -17,13 +17,15 @@ namespace ASPMessageBoard.Data
         public ASPMessageBoardDbContext()
             : base("name=ASPMessageBoardDbContext")
         {
-            Database.SetInitializer<ASPMessageBoardDbContext>(new MigrateDatabaseToLatestVersion<ASPMessageBoardDbContext, Configuration>());
+            Database.SetInitializer<ASPMessageBoardDbContext>(new CreateDatabaseIfNotExists<ASPMessageBoardDbContext>());
         }
 
         // Add a DbSet for each entity type that you want to include in your model. For more information 
         // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Thread> Threads { get; set; }
+        public virtual DbSet<Comment> Comments { get; set; }
 
     }
 
